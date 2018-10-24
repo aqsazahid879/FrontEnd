@@ -4,28 +4,41 @@
     ViewBag.Title = "Achievements";
 }
 
-<h1>
-    Achievements
-</h1>
-<TABLE align="center" BORDER="7" WIDTH="60%" CELLPADDING="5" CELLSPACING="4">
-    <TR>
-        <TH COLSPAN="5">
-            <H3><BR>Avhievements</H3>
-        </TH>
-    </TR>
-    <TR>
-        <th>Registration Number</th>
-        <th>Name</th>
-        <th>Achievement Detail</th>
-    </TR>    
-    <tr>
-        <td>2016-CS-115</td>
-        <td>Hamza Nasir</td>
-        <td>Gold Medalist</td>
-    </tr>
-    <tr>
-        <td>2016-CS-155</td>
-        <td>Aqsa Zahid</td>
-        <td>Gold Medalist</td>
-    </tr>
-</TABLE>
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-2 sidenav">
+            <br>
+            <br>
+            <p> @Html.ActionLink("Admin", "AdminViewModel", "Admin")</p>
+            <p> @Html.ActionLink("Student", "StudentViewModel", "Student")</p>
+        </div>
+        <div class="col-sm-8 text-left">
+            <h2>Computer Science and Engineering Department</h2>
+            <h3>Achievements</h3>
+            <TABLE align="center" BORDER="7" WIDTH="60%" CELLPADDING="5" CELLSPACING="4">
+                <TR>
+                    <TH COLSPAN="5">
+                        <H3><BR>Avhievements</H3>
+                    </TH>
+                </TR>
+                <TR>
+                    <th>Registration Number</th>
+                    <th>Name</th>
+                    <th>Achievement Detail</th>
+                </TR>
+                <tr>
+                    <td>2016-CS-115</td>
+                    <td>Hamza Nasir</td>
+                    <td>Gold Medalist</td>
+                </tr>
+                <tr>
+                    <td>2016-CS-155</td>
+                    <td>Aqsa Zahid</td>
+                    <td>Gold Medalist</td>
+                </tr>
+            </TABLE>
+            <hr>
+
+        </div>
+    </div>
+</div>

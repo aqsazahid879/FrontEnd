@@ -21,6 +21,16 @@ namespace FrontEnd.Controllers
         {
             return View();
         }
+
+        public ActionResult AddStudent()
+        {
+            return View();
+        }
+
+        public ActionResult AddFacultyInformation()
+        {
+            return View();
+        }
         public ActionResult Events()
         {
             return View();

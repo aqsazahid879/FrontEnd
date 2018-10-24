@@ -4,28 +4,41 @@
     ViewBag.Title = "Events";
 }
 
-<h1>
-    Events
-</h1>
-<TABLE align="center" BORDER="7" WIDTH="60%" CELLPADDING="5" CELLSPACING="4">
-    <TR>
-        <TH COLSPAN="5">
-            <H3><BR>Events</H3>
-        </TH>
-    </TR>
-    <TR>
-        <th>Event Number</th>
-        <th>Name</th>
-        <th>Event Detail</th>
-    </TR>
-    <tr>
-        <td>Ev-1</td>
-        <td>Ceremony</td>
-        <td>Final Year Project Reward Ceremony</td>
-    </tr>
-    <tr>
-        <td>Ev-2</td>
-        <td>Orientation</td>
-        <td>For the motivation of First year Students</td>
-    </tr>
-</TABLE>
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-2 sidenav">
+            <br>
+            <br>
+            <p> @Html.ActionLink("Admin", "AdminViewModel", "Admin")</p>
+            <p> @Html.ActionLink("Student", "StudentViewModel", "Student")</p>
+        </div>
+        <div class="col-sm-8 text-left">
+            <h2>Computer Science and Engineering Department</h2>
+            <h3>Events</h3>
+            <TABLE align="center" BORDER="7" WIDTH="60%" CELLPADDING="5" CELLSPACING="4">
+                <TR>
+                    <TH COLSPAN="5">
+                        <H3><BR>Events</H3>
+                    </TH>
+                </TR>
+                <TR>
+                    <th>Event Number</th>
+                    <th>Name</th>
+                    <th>Event Detail</th>
+                </TR>
+                <tr>
+                    <td>Ev-1</td>
+                    <td>Ceremony</td>
+                    <td>Final Year Project Reward Ceremony</td>
+                </tr>
+                <tr>
+                    <td>Ev-2</td>
+                    <td>Orientation</td>
+                    <td>For the motivation of First year Students</td>
+                </tr>
+            </TABLE>
+            <hr>
+
+        </div>
+    </div>
+</div>

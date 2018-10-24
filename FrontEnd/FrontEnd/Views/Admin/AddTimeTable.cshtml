@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "Add Time Table";
+}
+
+<h2>View</h2>
+
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-2 sidenav">
+            <p>
+                <br>
+                <br>
+                <ul>
+                    <li>@Html.ActionLink("Add Faculty Members", "AddFacultyInformation", "Admin")</li>
+
+                    <li>@Html.ActionLink("Add Students", "AddStudent", "Admin")</li>
+
+                    <li>@Html.ActionLink("Add Time Table", "AddTimeTable", "Admin")</li>
+
+                    <li>@Html.ActionLink("Add Date Sheet", "AddDateSheet", "Admin")</li>
+
+                    <li>@Html.ActionLink("Add Events", "AddEvents", "Admin")</li>
+
+                    <li>@Html.ActionLink("Add Achievements", "AddAchievements", "Admin")</li>
+
+                    <li>@Html.ActionLink("Go Back", "AdminViewModel", "Admin")</li>
+                </ul>
+            </p>
+        </div>
+        <div class="col-sm-8 text-left">
+            <h2>Computer Science and Engineering Department</h2>
+            <p>
+                Enter Day: <input type="text" value=""><br>
+                <br>
+                Enter Enter Room Number: <input type="text" value=""><br>
+                <br>
+                Enter Section: <input type="text" value=""><br>
+                <br>
+                Enter Session Number: <input type="text" value=""><br>
+                <br>
+                Enter Time: <input type="text" value=""><br>
+                <br>
+                Enter Subject Name: <input type="text" value=""><br>
+                <br>
+                <input type="submit" value="submit"><br>
+                <br>
+            </p>
+            <hr>
+
+        </div>
+    </div>
+</div>

@@ -13,6 +13,10 @@ namespace FrontEnd.Controllers
         {
             return View();
         }
+        public ActionResult StudentLoginView()
+        {
+            return View();
+        }
 
         // GET: Student/Details/5
         public ActionResult Details()

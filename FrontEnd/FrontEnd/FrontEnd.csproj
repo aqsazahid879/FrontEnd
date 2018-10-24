@@ -196,6 +196,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
@@ -212,6 +213,8 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="%2838%291.JPG" />
+    <Content Include="Content\%2838%291.JPG" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -277,7 +280,14 @@
     <Content Include="Views\Visitor\Events.cshtml" />
     <Content Include="Views\Visitor\Faculty.cshtml" />
     <Content Include="Views\Visitor\Achievements.cshtml" />
-    <Content Include="Views\Student\Events.cshtml" />
+    <Content Include="Views\Admin\AddStudent.cshtml" />
+    <Content Include="Views\Admin\AddFacultyInformation.cshtml" />
+    <Content Include="Views\Admin\AddTimeTable.cshtml" />
+    <Content Include="Views\Student\StudentLoginView.cshtml" />
+    <Content Include="Views\Admin\AdminViewModel.cshtml" />
+    <Content Include="Views\Admin\AddDateSheet.cshtml" />
+    <Content Include="Views\Admin\AddEvents.cshtml" />
+    <Content Include="Views\Admin\AddAchievements.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

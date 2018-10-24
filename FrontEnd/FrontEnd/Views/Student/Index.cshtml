@@ -3,69 +3,72 @@
 @{
     ViewBag.Title = "TimeTable";
 }
-<h1>
-    2016 Session
-</h1>
-<TABLE align="center" BORDER="7" WIDTH="60%" CELLPADDING="5" CELLSPACING="4">
-    <TR>
-        <TH COLSPAN="7">
-            <H3><BR>TimeTable</H3>
-        </TH>
-    </TR>
-    <TR>
-        <th>Day</th>
-        <th>Room</th>
-        <th>Section</th>
-        <th>8:00am to 11:00am </th>
-        <th>11:00am to 02:00pm </th>
-        <th>02:00pm to 04:00pm </th>
-    </TR>
-    <tr>
-        <TD>Monday</TD>
-        <TD>N2</TD>
-        <TD>B</TD>
-        <TD>SE</TD>
-        <TD>TOA</TD>
-        <TD>PRV</TD>
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-2 sidenav">
+            <br>
+            <br>
 
-    </tr>
-    <tr>
-        <TD>Tuesday</TD>
-        <TD>N2</TD>
-        <TD>B</TD>
-        <TD>AI</TD>
-        <TD>AOA</TD>
-        <TD>SE LAB</TD>
-    </tr>
-    <tr>
-        <TD>Wednesday</TD>
-        <TD>N2</TD>
-        <TD>B</TD>
-        <TD>AI LAB</TD>
-        <TD>PRV</TD>
-        <TD>TOA</TD>
-    </tr>
-    <tr>
-        <TD>Thursday</TD>
-        <TD>N2</TD>
-        <TD>B</TD>
-        <TD>AI</TD>
-        <TD>AOA</TD>
-        <TD>TOA</TD> 
-    </tr>
-    <TD></TD>
-    <TD></TD>
-    <TD></TD>
-    <TD></TD>
-    <TD></TD>
-    <TD></TD>
-</TABLE>
+            <p>
+                @Html.ActionLink("Go Back", "StudentLoginView", "Student") 
+            </p>
+            <p>
+                @Html.ActionLink("View Time Table", "Details", "Student")
+            </p>
+        </div>
+        <div class="col-sm-8 text-left">
+            <h2>Computer Science and Engineering Department</h2>
+            <h3>Time Table</h3>
+            <TABLE align="center" BORDER="7" WIDTH="60%" CELLPADDING="5" CELLSPACING="4">
+                <TR>
+                    <TH COLSPAN="7">
+                        <H3><BR>TimeTable</H3>
+                    </TH>
+                </TR>
+                <TR>
+                    <th>Day</th>
+                    <th>Room</th>
+                    <th>Section</th>
+                    <th>8:00am to 11:00am </th>
+                    <th>11:00am to 02:00pm </th>
+                    <th>02:00pm to 04:00pm </th>
+                </TR>
+                <tr>
+                    <TD>Monday</TD>
+                    <TD>N2</TD>
+                    <TD>B</TD>
+                    <TD>SE</TD>
+                    <TD>TOA</TD>
+                    <TD>PRV</TD>
 
+                </tr>
+                <tr>
+                    <TD>Tuesday</TD>
+                    <TD>N2</TD>
+                    <TD>B</TD>
+                    <TD>AI</TD>
+                    <TD>AOA</TD>
+                    <TD>SE LAB</TD>
+                </tr>
+                <tr>
+                    <TD>Wednesday</TD>
+                    <TD>N2</TD>
+                    <TD>B</TD>
+                    <TD>AI LAB</TD>
+                    <TD>PRV</TD>
+                    <TD>TOA</TD>
+                </tr>
+                <tr>
+                    <TD>Thursday</TD>
+                    <TD>N2</TD>
+                    <TD>B</TD>
+                    <TD>AI</TD>
+                    <TD>AOA</TD>
+                    <TD>TOA</TD>
+                </tr>
+            </TABLE>
+            <hr>
 
-
-
-
-
-
-
-
+        </div>
+    </div>
+</div>
